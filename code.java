@@ -3,6 +3,8 @@ class Employee {
     int em_age;
     String em_name, em_designation, em_department;
     double em_salary;
+    
+    // contructor missing
 
     public Employee(int em_age, String em_name, String em_designation, String em_department, double em_salary) {
         this.em_age = em_age;
@@ -37,7 +39,7 @@ class Employee {
             //System.out.println();
         }
         void change_designation(String s){
-            
+            //blank function.
             
         }
         double display_salary(){
@@ -46,7 +48,7 @@ class Employee {
     }
 public class Lakshmisonikar {
     public static void main(String[] args) {
-        Developer d1=new Developer(1,"laxmi","Tester","banking",23343.00,435, new String[]{"java", "html", "python"});
+        Developer d1=new Developer(1,"laxmi","Tester","banking",23343.00,435, new String[]{"java", "html", "python"}); // object to be created missing.
         d1.em_designation="Java 14";
         //double val = 0;
         d1.rais_salary(val);
