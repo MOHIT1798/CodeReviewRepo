@@ -4,6 +4,8 @@ class Employee {
     String em_name, em_designation, em_department;
     double em_salary;
 
+    
+    //constructor missing.
     public Employee(int em_age, String em_name, String em_designation, String em_department, double em_salary) {
         this.em_age = em_age;
         this.em_name = em_name;
@@ -11,6 +13,8 @@ class Employee {
         this.em_department = em_department;
         this.em_salary = em_salary;
     }
+    
+    
 
    
 }
@@ -38,6 +42,8 @@ class Employee {
         }
         void change_designation(String s){
             
+            //blank function.
+            
             
         }
         double display_salary(){
@@ -46,10 +52,13 @@ class Employee {
     }
 public class Lakshmisonikar {
     public static void main(String[] args) {
+        
+        // object missing.
         Developer d1=new Developer(1,"laxmi","Tester","banking",23343.00,435, new String[]{"java", "html", "python"});
         d1.em_designation="Java 14";
         //double val = 0;
         d1.rais_salary(val);
+        // diplay updated salary missing.
         
     }
 }
